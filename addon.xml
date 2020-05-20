@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="game.steamlink-kodi" name="Steam Link Launcher" version="0.0.1" provider-name="excelsi0r">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux</platform>
+		<summary lang="en">Steam Link Launcher</summary>
+		<description lang="en">This app launches Steam Link</description>
+		<license>MIT</license>
+		<language>en</language>
+		<source>https://github.com/excelsi0r/game.steamlink-kodi</source>
+		<website>https://github.com/excelsi0r/game.steamlink-kodi</website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>
+v0.0.1 (2020-05-20)
+- First Release
+		</news>
+	</extension>
+</addon>
